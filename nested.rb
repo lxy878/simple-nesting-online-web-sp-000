@@ -128,6 +128,7 @@ def adding_to_dennis
         }
      }
 		 languages = programmer_hash[:dennis_ritchie][:languages]
+		 languages << "Assembly"
 		 puts languages.size
 
 		 return programmer_hash
