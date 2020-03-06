@@ -128,7 +128,9 @@ def adding_to_dennis
         }
      }
 		 languages = programmer_hash[:dennis_ritchie][:languages]
-		 languages.size
+		 puts languages.size
 
 		 return programmer_hash
 end
+
+adding_to_dennis
